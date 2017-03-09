@@ -1,3 +1,4 @@
 *~
 *.zip
 cloudwatch-logger
+vendor/*/*

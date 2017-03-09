@@ -18,7 +18,7 @@ The log group and log stream will automatically be created if necessary.
 Build instructions
 ------------------
 ```
-go build
+$ make
 ```
 
 If you want to cross-compile, set the `GOOS` and `GOARCH` environment variables
@@ -33,7 +33,3 @@ Thanks
 ------
 * [Eric Holmes](https://github.com/ejholmes) for his dead-simple [CloudWatch
   Logs stream library](https://github.com/ejholmes/cloudwatch).
-
-License
--------
-(C) 2017 Zendesk Inc.  All Rights Reserved.
